@@ -1,0 +1,197 @@
+*
+{
+	box-sizing:border-box ;
+}
+
+
+.row
+{
+	width: 100%;
+}
+
+@media (min-width:992px)
+{
+	.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 
+	{
+	    
+      float: left;
+	    border: 1px solid black;
+	    background-color: grey;
+      
+	}
+	.col-lg-1 {
+    width: 8.33%;
+  }
+  .col-lg-2 {
+    width: 16.66%;
+  }
+  .col-lg-3 {
+    width: 25%;
+  }
+  .col-lg-4 {
+    width: 33.33%;
+  }
+  .col-lg-5 {
+    width: 41.66%;
+  }
+  .col-lg-6 {
+    width: 50%;
+  }
+  .col-lg-7 {
+    width: 58.33%;
+  }
+  .col-lg-8 {
+    width: 66.66%;
+  }
+  .col-lg-9 {
+    width: 74.99%;
+  }
+  .col-lg-10 {
+    width: 83.33%;
+  }
+  .col-lg-11 {
+    width: 91.66%;
+  }
+  .col-lg-12 {
+    width: 100%;
+  }
+
+
+
+}
+
+
+
+@media (min-width:768px) and (max-width:991px)
+{
+	.col-mg-1, .col-mg-2, .col-mg-3, .col-mg-4, .col-mg-5, .col-mg-6, .col-mg-7, .col-mg-8, .col-mg-9, .col-mg-10, .col-mg-11, .col-mg-12 
+	{
+	    
+      float: left;
+	    border: 1px solid black;
+	    background-color: grey;
+	}
+	.col-mg-1 {
+    width: 8.33%;
+  }
+  .col-mg-2 {
+    width: 16.66%;
+  }
+  .col-mg-3 {
+    width: 25%;
+  }
+  .col-mg-4 {
+    width: 33.33%;
+  }
+  .col-mg-5 {
+    width: 41.66%;
+  }
+  .col-mg-6 {
+    width: 50%;
+  }
+  .col-mg-7 {
+    width: 58.33%;
+  }
+  .col-mg-8 {
+    width: 66.66%;
+  }
+  .col-mg-9 {
+    width: 74.99%;
+  }
+  .col-mg-10 {
+    width: 83.33%;
+  }
+  .col-mg-11 {
+    width: 91.66%;
+  }
+  .col-mg-12 {
+    width: 100%;
+  }
+}
+
+@media (max-width:766px)
+{
+  .col-sd-1
+  {
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;
+    background-color: grey;
+    border: 1px solid black;
+    float: left;
+  }
+}
+
+h1
+{
+	font-family: sans-serif,helvitica;
+	font-size: 20px;
+	color: solid black;
+	margin-left: 50%;
+	
+
+}
+
+
+
+
+
+.submenu1
+{
+	position: relative;
+	background-color: pink;
+	top: 0%;
+	width: 25%;
+	left:75%;
+}
+
+p
+{
+	font-family: sans-serif,helvitca;
+
+
+}
+
+
+
+
+.submenu2
+{
+	position: relative;
+	background-color: indianred;
+	top: 0%;
+	width: 25%;
+	left: 75%;
+	color: white;
+
+}
+
+
+.submenu3
+{
+	position: relative;
+	background-color: yellow;
+	top: 0%;
+	width: 25%;
+	left: 75%;
+	color:black;
+
+}
+
+.subtxt1
+{
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  left: 10%;
+}
+
+.subtxt2,.subtxt3
+{
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  left: 20%;
+}
+
+
